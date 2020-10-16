@@ -13,12 +13,67 @@
 			</attenuation>
 			<direction>-0.5 0.1 -0.9</direction>
 		</light>
+		<actor name="actor3">
+			<skin>
+				<filename>walk.dae</filename>
+				<scale>1.0</scale>
+			</skin>
+			<pose>5 4 0 0 0 0</pose>
+			<animation name="talking3">
+				<filename>talk_a.dae</filename>
+				<scale>1.000000</scale>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<script>
+				<loop>true</loop>
+				<delay_start>0.000000</delay_start>
+				<auto_start>true</auto_start>
+				<trajectory id="1" type="talking3">
+					<waypoint>
+						<time>0.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>5.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>10.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>15.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>20.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>25.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>30.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>35.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+					<waypoint>
+						<time>40.000000</time>
+						<pose>8.500000 1.000000 0.000000 0.000000 0.000000 -1.600000</pose>
+					</waypoint>
+				</trajectory>
+			</script>
+		</actor>
 		<actor name="actor2">
 			<skin>
 				<filename>walk.dae</filename>
 				<scale>1.0</scale>
 			</skin>
-			<pose>3 3 3 0 0 0</pose>
+			<pose>5 4 0 0 0 0</pose>
 			<animation name="talking">
 				<filename>talk_a.dae</filename>
 				<scale>1.000000</scale>
@@ -31,39 +86,39 @@
 				<trajectory id="1" type="talking">
 					<waypoint>
 						<time>0.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>5.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>10.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>15.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>20.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>25.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>30.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>35.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 					<waypoint>
 						<time>40.000000</time>
-						<pose>3.000000 3.000000 0.000000 0.000000 0.000000 1.600000</pose>
+						<pose>8.000000 1.000000 0.000000 0.000000 0.000000 1.600000</pose>
 					</waypoint>
 				</trajectory>
 			</script>
